@@ -7,7 +7,29 @@
     Desktops, large screens – 1025px — 1200px.
     Extra large screens, TV – 1201px, and more.
 */
+@media screen and (min-width: 10px) and (max-width: 329px){
 
+    .result{
+        width: 280px;   
+    }
+    .descrition{
+        margin: 5px;
+        font-size: smaller;
+        width: 270px;
+    }
+    .great{
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 20px;
+    }
+    #summary1{
+
+        align-self: baseline;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
     body{
@@ -30,6 +52,9 @@
     .result{
         width: 45vw;
         border-radius: 25px;
+    }
+    .descrition{
+        width: 40vw;
     }
     .sumary{
         display: flex;
@@ -76,6 +101,9 @@
     .result{
         width: 35vw;
         border-radius: 25px;
+    }
+    .descrition{
+        width: 30vw;
     }
     .sumary{
         display: flex;
@@ -124,6 +152,9 @@
         width: 35vw;
         border-radius: 35px;
     }
+    .descrition{
+        width: 30vw;
+    }
     .sumary{
         display: flex;
         flex-flow: column;
@@ -170,6 +201,9 @@
 
         width: 25vw;
         border-radius: 35px;
+    }
+    .descrition{
+        width: 20vw;
     }
     .sumary{
         display: flex;

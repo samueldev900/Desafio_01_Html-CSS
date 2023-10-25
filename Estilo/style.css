@@ -45,7 +45,7 @@
         background: linear-gradient(to top, #4734f0, #4b24cd);
     }
     .descrition{
-        width: 320px;
+        width: 80vw;
     }
     .final{
         display: flex;
@@ -58,6 +58,8 @@
     }
     .great{
         color: white;
+        font-weight: bold;
+        font-size: 1.3em;
     }
 /*========================SUMMARY======================*/
 
@@ -66,14 +68,14 @@
         flex-flow: column;
         align-items: center;
         justify-content: space-between;
-        width: 320px;
+        width: 280px;
         height: 40vh;
         margin-top: 20px;
     }
     .info{
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 250px;
         padding: 10px;
         border-radius: 10px;
         background-color: #fff6f5;
@@ -81,7 +83,7 @@
     .info1{
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 250px;
         padding: 10px;
         border-radius: 10px;
         background-color: #fffbf2;
@@ -89,7 +91,7 @@
     .info2{
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 250px;
         padding: 10px;
         border-radius: 10px;
         background-color:#f2fafa;
@@ -97,7 +99,7 @@
     .info3{
         display: flex;
         justify-content: space-between;
-        width: 300px;
+        width: 250px;
         padding: 10px;
         border-radius: 10px;
         background-color: #f3f3fd;
@@ -112,7 +114,7 @@
         color: rgba(0, 0, 0, 0.26);
     }
     #btn{
-        width: 300px;
+        width: 250px;
         height: 50px;
         border-radius: 20px;
         border: none;
